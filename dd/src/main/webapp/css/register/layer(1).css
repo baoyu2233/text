@@ -1,0 +1,227 @@
+.tabLayer {position:relative;}
+/**城市选择弹出层**/
+.selectCityLayer{width:233px;overflow:hidden;position:absolute;top:0;left:700px;z-index:10000002;}
+.cityLayerT{width:233px;height:35px;background:url(../images/layer/cityLayerT.png) no-repeat;}
+.cityLayerT span{float:left;font-weight:600;color:#fff;margin:10px 0 0 15px;}
+.cityLayerT .closeCityLayer{float:right;display:block;width:14px;height:14px;margin:12px 15px 0 0;cursor:pointer;_margin-right:7px;}
+.cityLayerM{width:203px;overflow:auto;padding:10px 15px;background:url(../images/layer/cityLayerM.png) repeat-y;}
+.cityNameList li{float:left;width:67px;line-height:25px;}
+.cityNameList li a{line-height:25px;}
+.cityNameList li a:hover{color:#f90;}
+.cityLayerB{width:233px;height:10px;font-size:10px;line-height:10px;background:url(../images/layer/cityLayerB.png) no-repeat;}
+/**城市选择弹出层 end**/
+
+/**号码选择弹出层**/
+.selectNumberLayer{width:669px;overflow:hidden;position:absolute;top:0;left:0;z-index:10000002;}
+.numberLayerT{width:669px;height:43px;background:url(../images/layer/numberLayerT.png) no-repeat;}
+.numberLayerT dl{float:left;margin:12px 0 0 14px;_display:inline;}
+.numberLayerT dl dt,.numberLayerT dl dd{float:left;color:#fff;font-weight:600;margin-right:10px;_display:inline;}
+.numberLayerT dl dt{padding-top:4px;}
+.numberLayerT dl dt span{color:#fff;font-weight:600;}
+.numberLayerT dl dd select{padding:1px;height:23px;}
+.numberLayerT dl dd input{width:90px;height:19px;}
+.numberLayerT dl dd input.numberLayerSearchBtn{width:50px;height:23px;cursor:pointer;text-align:center;border:0;background:url(../images/layer/numberLayerSearchBtn.gif) no-repeat;}
+.numberLayerT .closePackageLayer{float:right;display:block;width:14px;height:14px;margin:11px 13px 0 0;cursor:pointer;_margin-right:6px;}
+.numberLayerM{width:641px;overflow:auto;padding:10px 14px;background:url(../images/layer/numberLayerM.png) repeat-y;}
+.sortMode{width:641px;overflow:hidden;border-bottom:1px solid #e3e3e3;}
+.sortMode li{float:left;height:16px;overflow:hidden;padding:5px;background:#f1f1f1;cursor:pointer;}
+.sortMode li span,.sortMode li b{display:block;float:left;}
+.sortMode li b{margin:5px 0 0 2px;}
+.sort1{margin-right:5px;}
+.sortDown{width:10px;height:8px;float:left;background:url(../images/layer/downArrow.gif) no-repeat;}
+.sortUp{width:10px;height:8px;float:left;background:url(../images/layer/upArrow.gif) no-repeat;}
+.numberList{margin-bottom:10px;}
+.numberList td,.numberList th{text-align:center;padding:10px 0;border-bottom:1px dotted #e3e3e3;}
+.numberList th{font-weight:600;}
+.layerPaging{width:410px;overflow:hidden;float:right;}
+.layerPaging a{margin:2px 10px 0 0;display:inline-block;float:left;}
+.layerPaging a:hover{color:#f60;text-decoration:underline;}
+.layerPaging a.current{color:#f60;}
+.layerPaging span{margin:2px 20px 0 0;display:inline-block;float:left;}
+.layerPaging label{margin:2px 10px 0 0;display:inline-block;float:left;}
+.inputW20H16{width:20px;height:16px;float:left;margin-right:10px;}
+.numberLayerB{width:669px;height:9px;font-size:9px;line-height:9px;background:url(../images/layer/numberLayerB.png) no-repeat;}
+/**号码选择弹出层 end**/
+
+
+/**套餐选择弹出层**/
+.selectPackageLayer{width:659px;overflow:hidden;position:absolute;top:350px;left:0;z-index:10000002;}
+.packageLayerT{width:659px;height:35px;background:url(../images/layer/packageLayerT.png) no-repeat;}
+.packageLayerT span{float:left;font-weight:600;color:#fff;margin:10px 0 0 15px;}
+.packageLayerT .closePackageLayer{float:right;display:block;width:14px;height:14px;margin:12px 15px 0 0;cursor:pointer;_margin-right:7px;}
+.packageLayerM{width:633px;overflow:auto;padding:10px 13px;background:url(../images/layer/packageLayerM.png) repeat-y;}
+.plan{position:relative;width:621px;height:260px;padding:5px;margin-bottom:10px;background:#fff;}
+.planInfor1,.planInfor2,.planInfor3,.planInfor4,.planInfor5{position:absolute;z-index:1;}
+.planInfor1{top:5px;left:5px;width:121px;height:208px;}
+.img1{margin-top:9px;}
+.img2{margin-top:5px;}
+.img3{margin-top:5px;}
+.img4{margin-top:5px;}
+.img5{margin-top:8px;}
+.planInfor2,.planInfor3,.planInfor5{width:130px;height:208px;}
+.planInfor2{top:5px;left:131px;background:url(../images/layer/packageprice1.gif) no-repeat;}
+.planInfor3{top:5px;left:266px;background:url(../images/layer/packageprice2.gif) no-repeat;}
+.planInfor4{top:5px;left:401px;width:88px;height:208px;background:url(../images/layer/packageprice3.gif) no-repeat;}
+.planInfor5{top:5px;left:494px;background:url(../images/layer/packageprice4.gif) no-repeat;}
+.packageList{position:absolute;z-index:9999;}
+.packageList li{float:left;width:38px;height:30px;line-height:30px;font-weight:600;margin-right:5px;text-align:center;background:url(../images/layer/packageBG.png) no-repeat;cursor:pointer;}
+.packageList li.marginR11px{margin-right:11px;}
+.packageList li.marginR0px{margin-right:0;}
+.packageListPhone{position:absolute;z-index:9999;}
+.packageListPhone li{float:left;width:38px;height:30px;line-height:30px;font-weight:600;margin-right:5px;text-align:center;background:url(../images/layer/packageBG.png) no-repeat;cursor:pointer;}
+.packageListPhone li.marginR11px{margin-right:11px;}
+.packageListPhone li.marginR0px{margin-right:0;}
+
+.packageListSend{position:absolute;z-index:9999;}
+.packageListSend li{float:left;width:38px;height:30px;line-height:30px;font-weight:600;margin-right:5px;text-align:center;background:url(../images/layer/packageBG.png) no-repeat;cursor:pointer;}
+.packageListSend li.marginR11px{margin-right:11px;}
+.packageListSend li.marginR0px{margin-right:0;}
+
+.packageA{top:45px;left:134px;}
+.packageA li{background-position:0 0;color:#f60;}
+.packageA li.hoverPackage{background-position:-38px 0;color:#fff;}
+.packageA li.hoverPackageOf{background-position:-38px 0;color:#fff;}
+.packageA li.hoverDefault{background:url(../images/layer/default.gif) 0 0 no-repeat;color:#ACACAC;cursor:default;}
+.packageB{top:95px;left:134px;}
+.packageB li{background-position:0 -30px;color:#39c;}
+.packageB li.hoverPackage{background-position:-38px -30px;color:#fff;}
+.packageB li.hoverPackageOf{background-position:-38px -30px;color:#fff;}
+.packageC{top:145px;left:134px;}
+.packageC li{background-position:0 -60px;color:#393;}
+.packageC li.hoverPackage{background-position:-38px -60px;color:#fff;}
+.packageC li.hoverPackageOf{background-position:-38px -60px;color:#fff;}
+.generalPresentation{top:180px;left:134px;}
+.generalPresentation li{background:none;font-weight:100;}
+.selectDetails{position:absolute;top:225px;left:5px;z-index:9999;width:621px;padding-top:5px;color:#c00;border-top:1px solid #e3e3e3;}
+.selectDetails span{font-weight:600;color:#c00;}
+.packagesDetails table{background:#e3e3e3;margin-bottom:10px;}
+.packagesDetails table th{background:#f9f9f9;padding:10px;}
+.packagesDetails table td{background:#fff;padding:10px;text-align:center;}
+.tips{margin-left:10px;}
+.packageLayerB{width:659px;height:10px;font-size:10px;line-height:10px;background:url(../images/layer/packageLayerB.png) no-repeat;}
+/**套餐选择弹出层 end**/
+
+
+
+/*中等大小层样式*/
+.mediumSizedLayer{position:absolute;top:550px;left:700px;z-index:10000002;width:318px;overflow:hidden;}
+.mediumSizedLayerT{width:318px;height:34px;background:url(../images/layer/mediumSizedLayerT.png) no-repeat;}
+.mediumSizedLayerT span{float:left;font-weight:600;color:#fff;margin:10px 0 0 15px;}
+.mediumSizedLayerT .closeCityLayer{float:right;display:block;width:14px;height:14px;margin:12px 15px 0 0;cursor:pointer;_margin-right:7px;}
+.mediumSizedLayerT .closeCityLayerTwo{float:right;display:block;width:14px;height:14px;margin:12px 15px 0 0;cursor:pointer;_margin-right:7px;}
+
+.mediumSizedLayerM{width:288px;overflow:auto;padding:5px 15px;background:url(../images/layer/mediumSizedLayerM.png) repeat-y;overflow:hidden;}
+.mediumSizedLayerM h4{padding-bottom:5px;margin-bottom:10px;border-bottom:1px dotted #999;}
+.mediumSizedLayerM dl{width:288px;overflow:hidden;margin:10px 0;}
+.mediumSizedLayerM dl dt,.mediumSizedLayerM dl dd{float:left;}
+.mediumSizedLayerM dl dt{width:68px;overflow:auto;padding-top:4px;}
+.mediumSizedLayerM dl dd{width:200px;overflow:hidden;}
+.inputW196H21{width:196px;height:21px;margin-bottom:5px;float:left;border:1px solid #bbb;}
+.inputW100H21{width:100px;height:21px;margin-bottom:5px;float:left;}
+.checkError{float:left;padding:0 5px 0 26px;height:20px;line-height:20px;border:1px solid red;color:#f60;background:url(../images/layer/checkError.gif) 3px 3px no-repeat;}
+.layerSubmit{width:81px;height:23px;cursor:pointer;border:0;color:#fff;background:url(../images/layer/layerBtn.gif) no-repeat;}
+.checkCode{width:83px;height:23px;cursor:pointer;border:0;background:url(../images/layer/checkCodeBtn.gif) no-repeat;}
+.checkCodeTwo{width:83px;height:23px;cursor:pointer;border:0;background:url(../images/layer/checkCodeBtn.gif) no-repeat;margin:2px 0 0 10px;}
+.mediumSizedLayerB{width:318px;height:10px;font-size:10px;line-height:10px;background:url(../images/layer/mediumSizedLayerB.png) no-repeat;}
+
+
+
+/*大层样式*/
+.bigSizedLayer{position:absolute;top:900px;left:0;z-index:10000002;width:735px;overflow:hidden;}
+.bigSizedLayerT{width:735px;height:35px;background:url(../images/layer/bigSizeLayerT.png) no-repeat;}
+.bigSizedLayerT span{float:left;font-weight:600;color:#fff;margin:10px 0 0 15px;}
+.bigSizedLayerT .closeCityLayer{float:right;display:block;width:14px;height:14px;margin:11px 9px 0 0;cursor:pointer;_margin-right:7px;}
+.bigSizedLayerM{width:705px;overflow:hidden;padding:5px 15px;background:url(../images/layer/bigSizeLayerM.png) repeat-y;}
+.bigSizedLayerM h4{line-height:25px;color:#f60;font-weight:600;}
+.recomNumber{width:705px;overflow:hidden;margin:10px 0;padding-bottom:10px;border-bottom:1px solid #ee6d00;}
+.recomNumber a{display:inline-block;float:left;width:100px;height:26px;line-height:26px;text-align:center;margin:0 8px 0 8px;background:url(../images/layer/selectNumberBtn.gif) no-repeat;font-weight:bold;}
+.selectNumberCond{width:705px;overflow:hidden;padding-bottom:10px;border-bottom:1px solid #e4e4e4;}
+.selectNumberCond p{float:left;font-weight:600;line-height:23px;}
+.selectNumberCond ul.cond{float:right;}
+.selectNumberCond ul.cond li{float:left;margin:0 2px;}
+.selectNumberCond ul.cond li label{line-height:23px;}
+.selectNumberCond ul.cond li select{padding:3px;*margin-top:3px;}
+.inputW120H21{width:120px;height:21px;line-height:21px;*height:18px;*line-height:18px;*margin-top:1px;}
+.numberList{width:705px;overflow:hidden;}
+.numberList li{float:left;width:701px;overflow:hidden;}
+.numberList li td{text-align:center;padding:10px 0;border-bottom:1px dotted #e3e3e3;}
+.numberList li th {text-align:center;}
+.numberList li td.borderSolid{border-bottom:1px solid #e3e3e3;}
+.fontBold {font-weight:bold;color:#666;text-align:left;}
+a.fontBold {font-size:14px;color:#333;}
+a.fontBold em {font-size:14px;color:#333;font-weight:bold;}
+.thOne {width:70px;}
+.thTwo {width:80px;}
+.numberLayerSearchBtn{width:50px;height:23px;cursor:pointer;text-align:center;border:0;background:url(../images/layer/numberLayerSearchBtn.gif) no-repeat;}
+.layerPaging{width:410px;overflow:hidden;float:right;}
+.layerPaging a{margin:2px 10px 0 0;display:inline-block;float:left;}
+.layerPaging a:hover{color:#f60;text-decoration:underline;}
+.layerPaging a.current{color:#f60;}
+.layerPaging span{margin:2px 20px 0 0;display:inline-block;float:left;}
+.layerPaging label{margin:2px 10px 0 0;display:inline-block;float:left;}
+.inputW20H16{width:20px;height:16px;float:left;margin-right:10px;}
+.bigSizedLayerB{width:735px;height:9px;font-size:9px;line-height:9px;background:url(../images/layer/bigSizeLayerB.png) no-repeat;}
+.bgRed {background:#f8f8f8;}
+/*合约*/
+.agreementLayer{position:absolute;top:900px;left:0;z-index:10000002;width:670px;overflow:hidden;}
+.agreementT{width:670px;height:35px;background:url(../images/layer/contractLayerT.png) no-repeat;}
+.agreementT span{float:left;font-weight:600;color:#fff;margin:10px 0 0 15px;}
+.agreementT .closeCityLayer{float:right;display:block;width:14px;height:14px;margin:12px 15px 0 0;cursor:pointer;_margin-right:7px;}
+.agreementM{width:650px;_width:645px;overflow:hidden;padding:0px 10px;background:url(../images/layer/contractLayerM.png) repeat-y;}
+.agreementM h4{line-height:25px;color:#f60;font-weight:600;}
+.agreementLayerB{width:735px;height:9px;font-size:9px;line-height:9px;background:url(../images/layer/contractLayerB.png) no-repeat;}
+
+/*切换*/
+.changeTab  {clear:both;width:650px;height:25px;border-bottom:1px solid #b8b8b8;margin-top:5px;padding-left:8px;}
+.changeTab li {float:left;width:90px;padding-left:5px;cursor:pointer;}
+.changeTab li.tabOn {float:left;width:90px;background:url(../images/proddetl/proddetlIcon.gif) 0px -245px no-repeat;height:26px;}
+.changeTab li.tabOn h2 {color:#ed6d00;font-weight:bold;}
+/*补办手机号*/
+.retroactiveNum {clear:both;width:650px;height:26px;margin:10px;}
+.retroactiveNum .lbel {height:26px;line-height:26px;}
+.left {float:left;}
+.tips{height:24px;margin:3px 0 0 5px;float:left;}
+.tips span{display:block;width:30px;height:24px;float:left;background:url(../images/findPassword/findpwd_tips.png) left no-repeat;}
+.tips label{display:block;height:21px;padding-top:3px;float:left;padding-right:10px;background:url(../images/findPassword/findpwd_tips.png) right no-repeat;}
+/*购物须知*/
+.knowLayer{position:absolute;top:900px;left:0;z-index:10000002;width:670px;overflow:hidden;}
+.knowT{width:670px;height:35px;background:url(../images/layer/knowT.png) no-repeat;}
+.knowT span{float:left;font-weight:600;color:#fff;margin:10px 0 0 15px;}
+.knowT .closeCityLayer{float:right;display:block;width:14px;height:14px;margin:10px 22px 0 0;cursor:pointer;_margin-right:7px;}
+.closeReturnedGoods{float:right;display:block;width:14px;height:14px;margin:10px 22px 0 0;cursor:pointer;_margin-right:7px;}
+.knowM{width:650px;overflow:hidden;padding:0px 10px;background:url(../images/layer/knowM.png) repeat-y;}
+.knowM h4{line-height:25px;color:#f60;font-weight:600;}
+.knowB{width:735px;height:9px;font-size:9px;line-height:9px;background:url(../images/layer/knowB.png) no-repeat;}
+
+/*新的分页样式begin*/
+.layerPageBox{padding:0 10px;text-align:right;}
+.layerPageNew{display:inline-block;*display:inline;zoom:1;overflow:hidden;font-size:12px;float:right;}
+.pageCut{float:left;padding-right:1px;}
+.prePage,.nextPage{cursor:pointer;float:left;height:23px;line-height:23px;margin-right:-1px;border:1px solid #d7d7d7;background:#fff;}
+.prePage:hover,.nextPage:hover{text-decoration:none;}
+.prePage{padding:0 5px 0 2px;}
+.nextPage{padding:0 2px 0 5px;}
+.prePage i,.nextPage i{display:inline-block;vertical-align:middle;width:0;height:0;font-size:0;border:4px solid #ef740c;}
+.prePage i{margin-right:5px;border-color:#fff #ef740c #fff #fff;}
+.nextPage i{margin-left:5px;border-color:#fff #fff #fff #ef740c;}
+.prePage span,.nextPage span{display:inline-block;vertical-align:middle;line-height:23px;color:#ef740c;font-weight:bold;}
+.prePageDisabled,.nextPageDisabled{cursor:default;background:#f1f1f1;}
+.prePageDisabled i,.nextPageDisabled i{color:#999;}
+.prePageDisabled i{border-color:#f1f1f1 #999 #f1f1f1 #f1f1f1;}
+.nextPageDisabled i{border-color:#f1f1f1 #f1f1f1 #f1f1f1 #999;}
+.prePageDisabled span,.nextPageDisabled span{color:#999;}
+.pages{float:left;}
+.pages a{float:left;width:23px;height:23px;line-height:23px;margin-right:-1px;border:1px solid #d7d7d7;background:#fff;text-align:center;color:#ef740c;}
+.pages a.on,.pages a:hover{background:#ef740c;color:#fff;text-decoration:none;}
+.pages a.abbrPages{cursor:default;border:0;background:none;color:#969696;}
+.pages a.abbrPages:hover{background:none;color:#969696;}
+.totalPages{float:left;line-height:25px;margin:0 5px 0 15px;}
+.uniLine{float:left;line-height:25px;}
+.pageIpt{float:left;width:30px;height:15px;line-height:15px;padding:2px 2px;margin:3px 5px 0;border:1px solid #d7d7d7;}
+.skipBtn{cursor:pointer;float:left;width:39px;height:22px;line-height:22px;margin:2px 0 0 5px;background:url("../images/goodsList/goodsIcon.png") no-repeat -101px -178px;text-align:center;color:#666;}
+.skipBtn:hover{background-position:-101px -200px;text-decoration:none;color:#666;}
+/*新的分页样式end*/
+
+/*“换一批”功能样式begin*/
+#changeNumberList{font: bold 16px/18px '';color: #f60;line-height: 50px;text-align:center;text-decoration: underline;}
+/*“换一批”功能样式begin*/

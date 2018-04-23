@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans-4.2.xsd 
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context-4.2.xsd 
+        http://www.springframework.org/schema/mvc 
+        http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd 
+        http://www.springframework.org/schema/task 
+        http://www.springframework.org/schema/task/spring-task-4.2.xsd">
+
+
+<context:component-scan base-package="com.eduask"/>
+
+<context:property-placeholder location="classpath:db.properties"/>
+
+<!-- 配置数据源 -->
+<bean id="dataSources" class="com.alibaba.druid.pool.DruidDataSource">
+	<property name="driverClassName" value="${driver}"/>
+	<property name="url" value="${url}"/>
+	<property name="username" value="${user}"/>
+	<property name="password" value="${password}"/>
+</bean>
+
+<!-- sqlsessionfactory -->
+<bean id="mysqlsessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+	<property name="dataSource" ref="dataSources"/>
+	<property name="mapperLocations" value="classpath:mapper/*.xml"/>
+	
+	 <property name="plugins">
+            <array>
+                <bean class="com.github.pagehelper.PageInterceptor">
+                    <property name="properties">
+                        <value>
+　　　　　　　　　　　　　　　　helperDialect=mysql
+　　　　　　　　　　　　　　</value>
+                    </property>
+                </bean>
+            </array>
+        </property>
+</bean>
+
+<!-- 将接口进行扫描 -->
+<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">  
+		<!-- 扫描dao层的mybatis接口 -->
+        <property name="basePackage" value="com.eduask.dao" />
+        <!-- 引入sqlSessionFactory -->  
+        <property name="sqlSessionFactoryBeanName" value="mysqlsessionFactory"></property>  
+    </bean>  
+
+
+
+        
+</beans>

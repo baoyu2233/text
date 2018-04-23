@@ -1,0 +1,140 @@
+.agree_main {
+	display: none;
+	position: fixed;
+	width: 760px;
+	overflow: hidden;
+	z-index: 10000002;
+	box-shadow: 0 0 5px #333;
+	left: 260px;
+	top: 100px;
+}
+
+.agree_main .top {
+	height: 35px;
+	background: #f60;
+	font: bold 12px "宋体";
+}
+
+.top span {
+	font-size: 12px;
+	margin-left: 10px;
+	color: #fff;
+	line-height: 35px;
+}
+
+.top .close {
+	float: right;
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(../../img/close.png) no-repeat;
+	margin: 8px 10px 6px 0;
+	_margin-right: 10px;
+	cursor: pointer;
+}
+
+.agree_main .middle {
+	background: #fff;
+	height: 400px;
+	overflow: auto;
+}
+
+.middle .textCon1 {
+	padding: 20px 20px 50px;
+}
+
+.middle .textCon1 .title {
+	text-align: center;
+}
+
+.middle .textCon1 p {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.agree_main .bottom {
+	position: relative;
+	height: auto;
+	border-top: 1px dotted #cacccb;
+	background-color: #fff;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.bottom .confirm {
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	padding: 0 20px;
+	background-color: #f60;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	font-family: "微软雅黑";
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.bottom .confirm:hover {
+	background-color: #f9810b;
+}
+
+.bottom .change-agree {
+	position: absolute;
+	left: 0;
+	top: -52px;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	background: #000 \9;
+	filter: alpha(opacity = 50);
+	zoom: 1;
+}
+
+.change-agree .cur-agree {
+	display: inline-block;
+	padding: 7px 80px;
+	color: #f2f2f2;
+	font-size: 14px;
+	font-family: "微软雅黑"
+}
+
+.cur-agree .cur-num, .cur-agree .nums, .cur-agree .agree-title {
+	color: #f2f2f2;
+	font-size: 14px;
+	font-family: "微软雅黑"
+}
+
+.change-agree .pre, .change-agree .next {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	*vertical-align: 10px;
+}
+
+.change-agree .pre {
+	background: url(../../../img/orderInput_new/pre.png) no-repeat;
+}
+
+.change-agree .pre-no {
+	background: url(../../img/pre-no.png) no-repeat;
+	cursor: auto;
+}
+
+.change-agree .next {
+	background: url(../../img/next.png) no-repeat;
+}
+
+.change-agree .next-no {
+	background: url(../../img/next-no.png) no-repeat;
+	cursor: auto;
+}
+
+.change-agree.opacity {
+	filter: alpha(opacity = 50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+}

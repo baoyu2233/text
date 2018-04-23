@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.eduask.dao.PhoneMapper" >
+  <resultMap id="BaseResultMap" type="com.eduask.model.Phone" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="phone_number" property="phoneNumber" jdbcType="VARCHAR" />
+    <result column="set_meal" property="setMeal" jdbcType="VARCHAR" />
+    <result column="price" property="price" jdbcType="DOUBLE" />
+    <result column="commodityName" property="commodityname" jdbcType="VARCHAR" />
+    <result column="sold" property="sold" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, phone_number, set_meal, price, commodityName, sold
+  </sql>
+  
+  
+ <select id="selectPhoneAll" resultMap="BaseResultMap">
+ select
+ <include refid="Base_Column_List"/>
+ from phone where sold=0
+ </select>
+ 
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from phone
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from phone
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.eduask.model.Phone" >
+    insert into phone (id, phone_number, set_meal, 
+      price, commodityName, sold
+      )
+    values (#{id,jdbcType=INTEGER}, #{phoneNumber,jdbcType=VARCHAR}, #{setMeal,jdbcType=VARCHAR}, 
+      #{price,jdbcType=DOUBLE}, #{commodityname,jdbcType=VARCHAR}, #{sold,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.eduask.model.Phone" >
+    insert into phone
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="phoneNumber != null" >
+        phone_number,
+      </if>
+      <if test="setMeal != null" >
+        set_meal,
+      </if>
+      <if test="price != null" >
+        price,
+      </if>
+      <if test="commodityname != null" >
+        commodityName,
+      </if>
+      <if test="sold != null" >
+        sold,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="phoneNumber != null" >
+        #{phoneNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="setMeal != null" >
+        #{setMeal,jdbcType=VARCHAR},
+      </if>
+      <if test="price != null" >
+        #{price,jdbcType=DOUBLE},
+      </if>
+      <if test="commodityname != null" >
+        #{commodityname,jdbcType=VARCHAR},
+      </if>
+      <if test="sold != null" >
+        #{sold,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.eduask.model.Phone" >
+    update phone
+    <set >
+      <if test="phoneNumber != null" >
+        phone_number = #{phoneNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="setMeal != null" >
+        set_meal = #{setMeal,jdbcType=VARCHAR},
+      </if>
+      <if test="price != null" >
+        price = #{price,jdbcType=DOUBLE},
+      </if>
+      <if test="commodityname != null" >
+        commodityName = #{commodityname,jdbcType=VARCHAR},
+      </if>
+      <if test="sold != null" >
+        sold = #{sold,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.eduask.model.Phone" >
+    update phone
+    set phone_number = #{phoneNumber,jdbcType=VARCHAR},
+      set_meal = #{setMeal,jdbcType=VARCHAR},
+      price = #{price,jdbcType=DOUBLE},
+      commodityName = #{commodityname,jdbcType=VARCHAR},
+      sold = #{sold,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

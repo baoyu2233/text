@@ -1,0 +1,116 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+body {
+	font-family: -apple-system, "Helvetica Neue", Arial, "PingFang SC",
+		"Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei",
+		"Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN",
+		"Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC",
+		"WenQuanYi Micro Hei", SimSun, sans-serif;
+}
+
+.a1 {
+	position: fixed;
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.logo {
+	position: fixed;
+	background-size: 36px 43px;
+	background: url(ddd/img/1.png) no-repeat;
+	z-index: 2;
+	height: 43px;
+	line-height: 43px;
+	padding-left: 46px;
+	margin-left: 30px;
+	margin-top: 18px;
+	font-size: 36px;
+	display: block;
+	color: #000;
+}
+
+.side {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 480px;
+	float: left;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+a {
+	text-decoration: none;
+}
+
+.register {
+	position: relative;
+	float: right;
+	width: 76.5%;
+	height: 100%;
+}
+
+.title1 {
+	margin-right: 60px;
+	float: right;
+	margin: 20px 50px 0 0;
+	font-size: 16px;
+	color: rgba(0, 0, 0, .902);
+	padding: 10px 0 0;
+	line-height: 24px;
+}
+
+.title-font {
+	color: #000;
+	opacity: .6;
+}
+
+.title-img {
+	background: url(ddd/img/2.png) no-repeat;
+	padding: 0 0 0 25px;
+}
+
+.title2 {
+	border-radius: 6px;
+	background: #f54444;
+	background: linear-gradient(126deg, #fc4754, #ff794c) #f54444;
+	height: 24px;
+	line-height: 24px;
+	font-size: 16px;
+	margin: 10px 0 0 5px;
+	padding: 0 1px 0 24px;
+	color: #fff;
+	font-weight: 300;
+}
+
+.title-img2 {
+	position: relative;
+	float: left;
+	top: -46px;
+}
+
+.seat {
+	position: relative;
+	top: -12px;
+}
+
+#mail-entry {
+	position: relative;
+	top: 2px;
+	left:25px;
+	
+}.main{
+	    position: absolute;
+    padding-bottom: 10px;
+    top: 100px;
+    width: 100%;
+	
+}

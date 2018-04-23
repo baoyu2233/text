@@ -1,0 +1,2939 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.font-grey {
+    color: #999;
+}
+
+.w-150 {
+    width: 150px!important;
+}
+
+.content {
+    /* position: relative; */
+    overflow: visible;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    margin-bottom: -11px;
+    padding-top: 20px;
+}
+
+.infoTapDiv {
+    /* left: 0; */
+    position: relative;
+    margin-top: 5px;
+    width: 98%;
+    border-bottom: 2px solid #f36f2a;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.infoTap {
+    width: 100%;
+    position: relative;
+    height: 45px;
+}
+
+.infoTap li:hover {
+    cursor: pointer;
+}
+
+.infoTap li {
+    /* font-size: 13px; */
+    margin-top: 4px;
+    z-index: 1;
+    position: relative;
+    float: left;
+    width: 128px;
+    height: 36px;
+    color: #000000;
+    border-top: 1px solid #f36f2a;
+    border-right: 1px solid #f36f2a;
+    border-left: 1px solid #f36f2a;
+}
+
+.infoTap li span {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+    height: 30px;
+    font-size: 14px;
+    padding-left: 3px;
+    text-align: center;
+}
+
+.infoTap .newUserInfo span, .infoTap .kuaidi span, .infoTap .online span {
+    color: white;
+    /**color: #000000;*/
+
+}
+
+.infoTap .bgA .bgB {
+    float: left;
+    position: absolute;
+    left: 46%;
+    bottom: -2px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 5px solid #fff;
+}
+
+.infoTap .bgA {
+    display: block;
+    /**display: none;*/
+    position: absolute;
+    width: 130px;
+    height: 36px;
+    background: #f36f2a;
+    top: 4px;
+    left: 0px;
+
+}
+
+/*.userInformation .bgA{*/
+/*position: absolute;*/
+/*width: 130px;*/
+/*height: 36px;*/
+/*background: #f36f2a ;*/
+/*top: 4px;*/
+/*left: 0px;*/
+/*}*/
+/*.userInformation .bgA .bgB{*/
+/*float: left;*/
+/*position: absolute;*/
+/*left: 46%;*/
+/*bottom: -2px;*/
+/*display: inline-block;*/
+/*width: 0;*/
+/*height: 0;*/
+/*border-left: 6px solid transparent;*/
+/*border-right: 6px solid transparent;*/
+/*border-bottom: 5px solid #fff;*/
+/*}*/
+
+/*.infoTap1 .unChoice1{*/
+/*z-index: 1;*/
+/*margin-top: 10px;*/
+/*display: block;*/
+/*float: left;*/
+/*width: 130px;*/
+/*height: 36px;*/
+/* font-size:20px; */
+/*}*/
+
+/*.choice1 span{*/
+/*margin-top: 10px;*/
+/*display: block;*/
+/* color:white; */
+/*font-weight: bold;*/
+/*height: 30px;*/
+/*font-size: 12px;*/
+/*padding-left: 3px;*/
+/*text-align: center;*/
+/*}*/
+/*.unChoice1 span{*/
+/*display: block;*/
+/*font-weight: bold;*/
+/*font-size: 12px;*/
+/*padding-left: 3px;*/
+/*text-align: center;*/
+/*}*/
+
+.infoTap li img {
+    display: block;
+    position: relative;
+    top: -5px;
+    width: 130px;
+}
+
+.monthFee li, .monthFee1 li, .monthFe2 li, .simKind li, .simKind1 li {
+    position: relative;
+    border: 1px solid #CCCCCC;
+    float: left;
+    width: 80px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 3px;
+    margin-right: 15px;
+
+    margin-top: 1px;
+}
+
+.orderCartCom li, .orderCartTime li {
+    position: relative;
+    border: 1px solid #CCCCCC;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 23px;
+    line-height: 23px;
+    font-size: 12px;
+    text-align: center;
+    /* padding-top: 3px; */
+    margin-right: 15px;
+
+    min-width: 50px;
+    margin-top: 2px;
+}
+
+.orderCartComPay li {
+    position: relative;
+    border: 1px solid #CCCCCC;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 23px;
+    font-size: 12px;
+    text-align: center;
+    /*padding-top: 3px;*/
+    margin-right: 15px;
+    line-height: 25px;
+    min-width: 50px;
+    margin-top: 2px;
+}
+
+.simKind2 li {
+    position: relative;
+    border: 1px solid #CCCCCC;
+    float: left;
+    width: 180px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+    padding: 0 5px;
+    margin-right: 5px;
+
+    margin-left: 10px;
+}
+
+.monthFee li:hover, .monthFee1 li:hover, .monthFee2 li:hover, .simKind li:hover, .simKind1 li:hover, .simKind2 li:hover, .orderCartCom li:hover,.distributionDay li:hover, .orderCartComPay li:hover, .orderCartTime li:hover {
+    cursor: pointer;
+}
+
+.monthFee, .monthFee1, .monthFee2, .simKind, .simKind1, .simKind2, .orderCartCom, .orderCartComPay, .orderCartTime {
+    float: left;
+    /* height: 100%; */
+    width: 100%;
+    position: relative;
+}
+
+.monthFee .redSelect, .monthFee1 .redSelect, .monthFee2 .redSelect, .simKind .redSelect, .simKind1 .redSelect, .simKind2 .redSelect,
+.orderCartCom .redSelect,.distributionDay .redSelect, .orderCartComPay .redSelect, .orderCartTime .redSelect, .phoneModelKind .redSelect {
+    border: 1px solid #f36f2a;
+
+}
+
+.monthFee .redSelectAction, .monthFee1 .redSelectAction, .monthFee2 .redSelectAction, .simKind .redSelectAction,
+.simKind1 .redSelectAction, .simKind2 .redSelectAction, .orderCartCom .redSelectAction, .orderCartComPay .redSelectAction,
+.orderCartTime .redSelectAction, .phoneModelKind .redSelectAction, .installTime .redSelectAction {
+    border: 1px solid #f36f2a;
+
+}
+
+.monthFee a, .monthFee1 a, .monthFee2 a, .simKind a, .simKind1 a, .simKind2 a {
+    display: block;
+    float: left;
+    height: 20px;
+    font-size: 12px;
+    padding-top: 3px;
+    color: #0000ff;
+    text-decoration-line: none;
+
+}
+
+.monthFee2 li {
+    border: 1px solid #ccc;
+    width: 25%;
+    height: 20px;
+    margin-left: 0px;
+    margin-right: 23px;
+    position: relative;
+    display: block;
+    float: left;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.infoBoxBtn {
+    display: inline-block;
+    padding: 0 20px;
+    height: 26px;
+    /*width: 150px;*/
+    line-height: 26px;
+    text-align: center;
+    font-weight: bold;
+    border: 0;
+    color: #fff;
+    background: #f36f2a;
+    border: 1px solid #f36f2a;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.infoBoxBtn:hover {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 20px;
+    height: 26px;
+    /*width: 150px;*/
+    line-height: 26px;
+    text-align: center;
+    font-weight: bold;
+    border: 0;
+    color: #fff;
+    background: #f36f2a;
+    border: 1px solid #f36f2a;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.userInfo {
+    overflow: hidden;
+    float: left;
+    margin-top: 5px;
+    width: 100%;
+    min-height: 140px;
+    /* margin-bottom: 10px; */
+}
+
+.userInfoDetail {
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    overflow: hidden;
+    width: 23%;
+    height: 120px;
+    border: 1px solid #ccc;
+}
+
+.userInfoDetail:hover {
+    cursor: pointer;
+
+}
+
+.userInfoDetail p {
+    padding: 0px 10px;
+    width: 90%;
+    max-height: 48px;
+    margin-top: 10px;
+    /* line-height: 25px; */
+    overflow: hidden;
+}
+
+.userInfoDetail .naPh {
+    height: 20px;
+}
+
+.userInfoDetail .middleLine {
+    width: 95%;
+    height: 1px;
+    text-align: center;
+    margin-left: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.userInfoDetail .unUser {
+    position: absolute;
+    display: block;
+    width: 96px;
+    height: 20px;
+    line-height: 20px;
+    bottom: 5px;
+    right: 10px;
+}
+
+.unUserColor p, .unUserColor span {
+    color: #bbb;
+}
+
+.userInfoDetail p .consignee {
+    display: block;
+    float: left;
+    width: 54%;
+    font-size: 12px;
+    /* margin-top: 10px; */
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.userInfoDetail p .consigneePhone {
+    display: block;
+    float: left;
+    font-size: 12px;
+    width: 40%;
+    /* margin-top: 10px; */
+    margin-left: 10px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.consigneeAddress {
+    margin-top: 5px;
+}
+
+.userInfo .redSelect1 {
+    border: 1px solid #f36f2a;
+}
+
+.bground {
+    background-color: #666;
+    /*background-color:#ccc;*/
+    position: absolute;
+    z-index: 99;
+    display: none;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.addressAction {
+    position: absolute;
+    z-index: 10000002;
+    width: 42%;
+    height: 30%;
+    left: 121px;
+    top: 79px;
+    display: none;
+
+}
+
+.addressAction img {
+    opacity: 0.7;
+    float: left;
+    margin-right: 7px;
+    margin-top: 2px;
+    width: 32px;
+    height: 32px;
+}
+
+.addressNew {
+    cursor: pointer;
+
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 1px;
+}
+
+.addressNew img {
+    position: relative;
+    top: 20px;
+    left: 90px;
+    width: 28px;
+    height: 28px;
+}
+
+.addressNew #newAddress {
+    position: relative;
+    width: 32%;
+    height: 35%;
+    top: 25px;
+    margin-left: 62px;
+    color: #ccc;
+}
+
+/*span.consigneePhone{*/
+/*padding-top: 7px;*/
+/*padding-left: 10px;*/
+/*width: 94%;*/
+/*font-size: 13px;*/
+/*}*/
+
+.userInfo .redSelectAction1 {
+    border: 1px solid #f36f2a;
+    background: url(../images/orderInput_new/choise2.png) no-repeat 101% 101%;
+}
+
+.massage {
+    margin-left: 14px;
+    width: 100%;
+    margin-top: 10px;
+    height: 21px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.massage span {
+    color: red;
+}
+
+.leaveMassage {
+    width: 250px;
+}
+
+#addressNewAreaDetail {
+    display: none;
+    position: fixed;
+    left: 380px;
+    top: 160px;
+    z-index: 10000002;
+    width: 600px;
+    height: auto;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    background: white;
+}
+
+.divTwo {
+    display: none;
+    position: fixed;
+    left: 380px;
+    top: 200px;
+    z-index: 10000002;
+    width: 465px;
+    /* height:150px; */
+    border: 1px solid #ccc;
+    overflow: hidden;
+    background: white;
+    /* padding: 0px 20px 0 20px; */
+}
+
+.oldPhoneResult {
+    display: none;
+    position: fixed;
+    left: 380px;
+    top: 200px;
+    z-index: 10000002;
+    width: 460px;
+    height: auto;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    background: white;
+    /* padding: 20px 20px 0 20px; */
+}
+
+.divTwo .divTwoClose {
+    /* position:relative; */
+    /* top: -10px; */
+    /* right: -457px; */
+    display: block;
+    width: 14px;
+    height: 14px;
+    float: right;
+    /* height: 14px; */
+    margin-top: 9px;
+    margin-right: 10px;
+}
+
+.divTwo .divTwoClose:hover {
+    cursor: pointer;
+
+}
+
+.oldPhoneResult p {
+    margin-top: 10px;
+    width: 92%;
+    font-size: 13px;
+    line-height: normal;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* color: #ff6600; */
+}
+
+.oldPhoneResultBtn {
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 35px;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.oldPhoneResultBtn input {
+    margin-left: 20px;
+    height: 26px;
+    width: 130px;
+    font-size: 13px;
+    background: #f36f2a;
+    border: 1px solid #f36f2a;
+    color: white;
+    font-weight: bold;
+}
+
+.oldPhoneResultBtn input:hover {
+    cursor: pointer;
+}
+
+#addressTop {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    /* border-bottom: 1px solid #ccc; */
+    background: #f36f2a;
+    /* margin-bottom: 5px; */
+}
+
+#addressTop label {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding-left: 10px;
+
+    padding-top: 7px;
+    color: white;
+    font-weight: bold;
+}
+
+#addressTop .addressCloseO {
+    text-align: right;
+    float: right;
+    display: block;
+    width: 14px;
+    height: 14px;
+    padding-right: 10px;
+    padding-top: 7px;
+    color: white;
+    font-weight: bold;
+
+}
+
+#addressTop span:hover {
+    cursor: pointer;
+
+}
+
+.addressMessage {
+    width: 93%;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.addressMessage label {
+    display: block;
+    width: 14%;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    /* margin-top: 6px; */
+    /*text-align: center;*/
+
+}
+
+.addressMessage input {
+    width: 39%;
+    float: left;
+    height: 22px;
+    margin-top: 2px;
+    font-size: 12px;
+    /* margin-left: 1px; */
+}
+
+#ztConsignee, #ztConsigneePhone {
+    height: 20px;
+    line-height: 20px;
+    margin-top: 3px;
+    font-size: 13px;
+}
+
+.addressBottom {
+    position: relative;
+    /* text-align: center; */
+    width: 250px;
+    height: 30px;
+    left: 120px;
+    /* margin-left: 150px; */
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.AgBtn, .unagBtn {
+    background: #f36f2a;
+    border: 1px solid #f36f2a;
+    font-weight: bold;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.table {
+    width: 95%;
+    height: 32px;
+    overflow: hidden;
+    margin-top: 5px;
+    line-height: 32px;
+}
+
+.table.sub {
+    margin-left: 11px;
+}
+.table.sub .tableLeft {
+    color: #999;
+    width: 68px;
+}
+
+.table div .fp-sel{
+    display: block;
+    float: left;
+    position: relative;
+    border: 1px solid #CCCCCC;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 15px;
+    width: 60px;
+    cursor: pointer;
+}
+.table  div .fp-sel i{
+    display: none;
+}
+.table  div  .sel{
+    border: 1px solid #f36f2a;
+}
+.table  div  .sel i{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    display: block;
+    overflow: hidden;
+    background: url(../../img/choise.png) no-repeat;
+    bottom: 0px;
+    right: 0px;
+}
+
+.table .edit-area p {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+}
+.table .edit-area a {
+    margin-left: 10px;
+    color: blue;
+}
+
+/*#infoBoxBtn .table,#oldUserInfoFin .table{
+    width: 95%;
+    height: 25px;
+    overflow: hidden;
+    margin-top: 5px;
+    line-height: 25px;
+}*/
+
+#zitiBtn .table {
+    width: 95%;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    /* margin-top: 5px; */
+}
+
+.table select {
+    /* margin-left: 5px; */
+}
+
+#zitiBtn .table > label {
+    margin-left: 10px;
+    /* line-height: normal; */
+    width: 9%;
+    height: 25px;
+    line-height: 25px;
+    display: block;
+    float: left;
+    /* margin-left: 20px; */
+    text-align: left;
+    font-size: 12px;
+    /* margin-top: 5px; */
+    /* padding-top: 2px; */
+}
+
+.table > label {
+    margin-left: 10px;
+    /* line-height: normal; */
+    width: 9%;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: left;
+    /* margin-left: 20px; */
+    text-align: left;
+    font-size: 13px;
+    /* margin-top: 10px; */
+    /* padding-top: 2px; */
+}
+
+.table .tableLeft {
+    /* margin-left: 0px; */
+}
+
+.table label span {
+    color: red;
+}
+
+.table > div {
+    padding: 0px 1px;
+    /* width: 85%; */
+    height: auto;
+    float: left;
+    font-size: 15px;
+    /* margin-top: 1px; */
+    text-align: left;
+    /* margin-left: 5px; */
+    height: 30px;
+    line-height: 30px;
+}
+
+#zitiBtn .table > div {
+    width: 80%;
+    line-height: 25px;
+    height: 25px;
+    float: left;
+    font-size: 15px;
+    /* margin-top: 3px; */
+    text-align: left;
+    margin-left: 5px;
+}
+
+.table .leaveMassage {
+    height: 20px;
+    font-size: 12px;
+    /* margin-top: 5px; */
+    text-align: left;
+    /* margin-left: 5px; */
+}
+
+.table div p {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: left;
+}
+#zitiBtn .table div p{
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: left;
+}
+#newUserInfo .left20,.infoBox .left20 {
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+#oldUserInfo .left20 {
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+#oldUserInfoBtn {
+    background: #f36f2a;
+    border: 1px solid #f36f2a;
+    margin-top: 10px;
+    margin-left: 117px;
+    width: 80px;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.captcha {
+    margin-left: 10px;
+}
+
+.finMassage {
+    font-size: 15px;
+    margin-top: 5px;
+    color: red;
+    margin-left: 20px;
+    width: 100%;
+    height: 30px;
+}
+
+#addressSelect {
+    margin-left: 10px;
+    width: 95%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+#addressSelect table {
+    width: 100%;
+}
+
+.addressSelectTab {
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+.addressSelectTab .firstList {
+    background: #Fac5aa;
+    height: 30px;
+}
+
+.addressSelectTab .secondList {
+    height: 40px;
+}
+
+.addressSelectTab .liChecked {
+    background: #fef8f5;
+}
+
+.moreAddressDetailContent ul .liChecked1 {
+    background: #fef8f5;
+}
+
+.addressSelectTab .secondList:hover {
+    background: #fef8f5;
+    cursor: pointer;
+}
+
+.addressSelectTab tr {
+    width: 100%;
+}
+
+#addressSelect table tr td {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.listOne {
+    width: 5%;
+}
+
+.listTwo {
+    width: 15%;
+}
+
+.listThree {
+    width: 30%;
+}
+
+.listFour {
+    width: 15%;
+}
+.listFive{
+    width: 30%;
+}
+
+#orderCartComWidth li, #orderCartComWidthB li {
+    position: relative;
+    padding: 0px 15px 0 15px;
+    min-width: 50px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    line-height: 25px;
+}
+
+i {
+    display: none;
+}
+
+.redSelectAction i {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    display: block;
+    overflow: hidden;
+    background: url(../../img/choise.png) no-repeat;
+    bottom: 0px;
+    right: 0px;
+}
+
+.monthFeeDetailClose {
+    display: inline-block;
+    float: right;
+    width: 14px;
+    height: 14px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.monthFeeDetailClose:hover {
+    cursor: pointer;
+}
+
+#orderCartComWidth .redSelectAction, #orderCartComWidthB .redSelectAction {
+    border: 1px solid #f36f2a;
+}
+
+.monthFeeDetail1, .monthFeeDetail2, .model, .model1 {
+    color: #0000ff;
+    /* font-size: 13px; */
+    height: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+    display: block;
+}
+
+.monthFeeDetail1:hover,.divOneA:hover,.model:hover, .model1:hover {
+    cursor: pointer;
+}
+
+.monthFeeDetail {
+    display: none;
+    position: fixed;
+    background: white;
+    left: 347px;
+    top: 114px;
+    z-index: 10000002;
+    height: auto;
+    width: 600px;
+    border: 1px solid #ccc;
+}
+
+#monthFeeDetailTop {
+    width: 100%;
+    height: 30px;
+    background: #f36f2a;
+    /* border-bottom: 1px solid #ccc; */
+
+}
+
+#monthFeeDetailTop label {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 6px;
+    display: block;
+    margin-left: 10px;
+    width: 41%;
+    float: left;
+}
+
+.monthFeeDetailContent {
+    padding: 20px 10px 0 10px;
+    width: 95%;
+}
+
+.monthFeeDetailContent dl {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.monthFeeDetailContent dl dt {
+    /* margin-top: 5px; */
+    height: 100%;
+    float: left;
+    text-align: left;
+    margin-left: 15px;
+    height: 30px;
+    line-height: 30px;
+    width: 11%;
+}
+
+.monthFeeDetailContent dl dd {
+    margin-left: 10px;
+    float: left;
+    text-align: left;
+    width: 25%;
+    /* margin-top: 5px; */
+    line-height: 30px;
+     width: 84%;
+}
+
+#buyDate li,#feeDetail li,#TCDetail li{
+    line-height: 30px;
+    float: left;
+    width: 124px;
+    margin-right: 23px;
+    position: relative;
+    display: block;
+}
+#buyDate .redf60,#feeDetail .redf60,#TCDetail .redf60{
+    color: #ff6600;
+}
+.monthFeeDetailContent dl dd span {
+    position: relative;
+    height: 60%;
+    float: left;
+    text-align: center;
+    width: 65%;
+    border: 1px solid #ff6600;
+}
+
+.monthFeeDetail input {
+    width: 80px;
+    height: 30px;
+    margin-left: 40%;
+    margin-top: 15px;
+    background: #f36f2a;
+    border: 1px solid #f36f2a;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.monthFeeDetail input:hover {
+    cursor: pointer;
+}
+
+.divOne {
+    margin-top: 50px;
+    margin-left: 11px;
+    margin-bottom: 50px;
+}
+
+.divOne .divOneA {
+    color: #0000ff;
+}
+
+.divOne .divOneA:hover {
+    text-decoration: none;
+}
+
+.oldUserInfoFinP {
+    margin-left: 11px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.tableA {
+    width: 100%;
+    height: 32px;
+    overflow: hidden;
+    margin-top: 2px;
+}
+
+.divTwo .divTwoBtn {
+    margin-left: 103px;
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    background: #f36f2a;
+    border: 1px solid #f36f2a;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.divTwo .divTwoBtn:hover {
+    cursor: pointer;
+}
+
+.tableA > label {
+    margin-left: 20px;
+    /* line-height: normal; */
+    width: 17%;
+    height: 30px;
+    display: block;
+    float: left;
+    /* margin-left: 5px; */
+    text-align: left;
+    font-size: 12px;
+    margin-top: 7px;
+    padding-top: 2px;
+    display: inline-block;
+}
+
+.tableA .tableLeft {
+    margin-left: 0px;
+}
+
+.tableA label span {
+    color: red;
+}
+
+.tableA > div {
+    width: 75%;
+    height: 30px;
+    float: left;
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.modelKind {
+    display: none;
+    z-index: 10000002;
+    position: fixed;
+    top: 114px;
+    left: 269px;
+    width: 800px;
+    height: auto;
+    border: 1px solid #ccc;
+    background: white;
+}
+
+.modelKindTop {
+    width: 100%;
+    height: 30px;
+    background: #f36f2a;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.modelKindTop label {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 6px;
+    display: block;
+    margin-left: 10px;
+    width: 41%;
+    float: left;
+}
+
+.modelKindClose {
+    display: inline-block;
+    float: right;
+    width: 14px;
+    height: 14px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.modelKindClose:hover {
+    cursor: pointer;
+}
+
+.phoneModel {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    min-height: 110px;
+}
+
+.Left30 {
+    float: left;
+    width: 13%;
+    height: 100%;
+    /* text-align: center; */
+}
+
+.Left30 label {
+    display: block;
+    margin-top: 10px;
+    width: 70%;
+    margin-left: 20px;
+    height: 30px;
+    text-align: left;
+}
+
+.phoneModelKind {
+    position: relative;
+    float: left;
+    width: 80%;
+    height: 100%;
+}
+
+.phoneModelKind li {
+    position: relative;
+    padding-top: 3px;
+    float: left;
+    width: 90px;
+    height: 22px;
+    border: 1px solid #cccccc;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.phoneModelKind li:hover {
+    cursor: pointer;
+
+}
+
+.phoneModelKindDetail {
+    margin-top: 10px;
+    width: 100%;
+    min-height: 90px;
+}
+
+.phoneModelKindDetail p {
+    position: relative;
+    float: left;
+    width: 180px;
+    min-height: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    /* text-align: center; */
+    cursor: pointer;
+    /* line-height: normal; */
+}
+
+.simKindDiv {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.simKindDiv .simKind {
+    margin-top: 5px;
+    width: 80%;
+    height: 30px;
+    float: left;
+}
+
+.simKindDiv .simKind1 {
+    margin-top: 5px;
+    width: 80%;
+    height: 30px;
+    float: left;
+}
+
+.simKindDiv .simKind2 {
+    margin-top: 5px;
+    width: 80%;
+    height: 30px;
+    float: left;
+}
+
+.modelKindBtn {
+    margin-top: 15px;
+    margin-left: 320px;
+    width: 100px;
+    height: 30px;
+    background: #f36f2a;
+    border: 1px solid #f36f2a;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 25px;
+    float: left;
+    /* position: absolute; */
+    /* bottom: 30px; */
+}
+
+.modelKindBtn:hover {
+    cursor: pointer;
+}
+
+.agreeLink:hover {
+    cursor: pointer;
+    /*text-decoration: none;*/
+}
+
+.uploadBtnLink {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #cccccc;
+    margin-right: 10px;
+    color: #3c3c3c;
+    padding: 2px 10px;
+    width: 60px;
+    text-align: center;
+    line-height: 19px;
+}
+
+.uploadBtnLink:hover {
+    text-decoration: none;
+    border: 1px solid #ef8700;
+    color: #000;
+}
+
+.uploadBtnLink-clicked {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ef8700;
+    margin-right: 5px;
+    color: #3c3c3c;
+    text-align: center;
+    padding: 2px 10px;
+    width: 60px;
+    padding-left: 10px;
+    line-height: 19px;
+}
+
+.uploadBtnLink-clicked i{
+    position: initial;
+    margin-right: -16px;
+    margin-bottom: -8px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    overflow: hidden;
+    background: url(../../img/choise.png) no-repeat;
+    bottom: 0;
+    right: 0px;
+}
+
+.uploadBtnLink-clicked:hover {
+    text-decoration: none;
+    border: 1px solid #ef8700;
+    color: #000;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.promptOne label {
+    /* font-weight: 200; */
+}
+
+.divTwoTop {
+    width: 100%;
+    height: 30px;
+    background: #f36f2a;
+    border-bottom: 1px solid #ccc;
+}
+
+.divTwoTop label {
+    font-weight: bold;
+    width: 40%;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    margin-top: 7px;
+    margin-left: 10px;
+    color: white;
+}
+
+.infoBottom {
+    /* position: absolute; */
+    /* top: 165px; */
+    margin-left: 30px;
+    width: 950px;
+    margin-bottom: 20px;
+}
+
+.infoBottom .table {
+    width: 95%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 1px;
+    margin-bottom: 4px;
+}
+
+.infoBottom .table label {
+    margin-left: 10px;
+    /*width: 9%;*/
+    height: 21px;
+    display: block;
+    float: left;
+    text-align: left;
+    font-size: 12px;
+    margin-top: 7px;
+    /* padding-top: 2px; */
+}
+
+.infoBottom .table div {
+    width: 80%;
+    height: 23px;
+    float: left;
+    font-size: 15px;
+    margin-top: 3px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+#online {
+    margin-left: 30px;
+    margin-top: 20px;
+    /*margin-bottom: 10px;*/
+}
+
+#unOnline, #unOnlineB, #unOnlineC {
+    margin-left: 30px;
+    margin-top: 20px;
+    /*margin-bottom: 10px;*/
+}
+
+#addressSelectBtn {
+    margin-bottom: 10px;
+    margin-left: 370px;
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background: #f36f2a;
+    border: 1px solid #f36f2a;
+}
+
+.agree25:hover {
+    cursor: pointer;
+}
+
+#agree25 {
+    display: none;
+    /* overflow: auto; */
+    height: 480px;
+    width: 640px;
+    z-index: 10000002;
+    position: fixed;
+    left: 370px;
+    top: 100px;
+    background: white;
+}
+
+#agree25Top {
+    width: 100%;
+    height: 30px;
+    background: #f36f2a;
+    border-bottom: 1px solid #ccc;
+}
+
+#agree25Top label {
+    font-weight: bold;
+    width: 40%;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    margin-top: 7px;
+    margin-left: 10px;
+    color: white;
+}
+
+#agree25Top .agree25Close {
+    display: inline-block;
+    float: right;
+    width: 14px;
+    height: 14px;
+    margin-top: 9px;
+    margin-right: 10px;
+}
+
+#agree25Top .agree25Close:hover {
+    cursor: pointer;
+
+}
+
+#agree25Close {
+    text-align: center;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 250px;
+    background: #f36f2a;
+    border: 1px solid #f36f2a;
+    color: white;
+    margin-bottom: 25px;
+}
+
+#agree25Content {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.orderSubmitNew {
+    min-height: 100px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.orderSubmitNew .submitMassageA {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.submitMassageA span {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.orderSubmitNew .submitMassageB {
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 40px;
+    color: #ccc;
+}
+
+.orderSubmitNew .hasChecked {
+    position: absolute;
+    margin-top: 5px;
+    height: 30px;
+    width: 200px;
+    background: #f36f2a;
+    border: 1px solid #f36f2a;
+    right: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.orderSubmitNew .unChecked {
+    cursor: pointer;
+    position: absolute;
+    /* margin-top: 15px; */
+    height: 30px;
+    width: 200px;
+    background: #f36f2a;
+    border: 1px solid #f36f2a;
+    right: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    float: left;
+}
+
+.xieyi {
+    /* height: 500px; */
+    width: 500px;
+    z-index: 10000002;
+    position: fixed;
+    left: 370px;
+    top: 130px;
+    background: white;
+}
+
+.xieyiTop {
+    width: 100%;
+    height: 30px;
+    background: #f36f2a;
+    border-bottom: 1px solid #ccc;
+}
+
+.xieyiTop label {
+    font-weight: bold;
+    width: 40%;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    margin-top: 7px;
+    margin-left: 13px;
+    color: white;
+}
+
+.xieyiTop .xieyiClose {
+    display: inline-block;
+    float: right;
+    width: 14px;
+    height: 14px;
+    margin-top: 9px;
+    margin-right: 10px;
+}
+
+.xieyi .xieyiClose:hover {
+    cursor: pointer;
+}
+
+.xieyiBtn {
+    text-align: center;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 200px;
+    background: #f36f2a;
+    border: 1px solid #f36f2a;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.moreAddress {
+    color: #0000ff;
+    margin-left: 10px;
+    margin-top: 290px;
+    width: 500px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.moreAddress:hover {
+    cursor: pointer;
+}
+
+.oldPhoneResultTop {
+    height: 30px;
+    width: 100%;
+    background: #f36f2a;
+    border: 1px solid #f36f2a;
+}
+
+.oldPhoneResultTop label {
+    font-weight: bold;
+    width: 40%;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    margin-top: 7px;
+    margin-left: 10px;
+    color: white;
+}
+
+.oldPhoneResultTop .oldPhoneResultClose {
+    position: relative;
+    top: 6px;
+    right: -233px;
+    display: block;
+    width: 14px;
+    height: 14px;
+}
+
+.oldPhoneResultTop .oldPhoneResultClose:hover {
+    cursor: pointer;
+}
+
+.moreAddressDetail {
+    /* background: #f36f2a; */
+    display: none;
+    border: 1px solid #ccc;
+    position: fixed;
+    top: 10px;
+    left: 200px;
+    height: auto;
+    width: 900px;
+    z-index: 10000002;
+    background: white;
+}
+
+.moreAddressDetailTap {
+    height: 30px;
+    width: 100%;
+    background: #f36f2a;
+    border: 1px solid #ccc;
+}
+
+.moreAddressDetailTap label {
+    font-weight: bold;
+    width: 40%;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    margin-top: 7px;
+    margin-left: 10px;
+    color: white;
+}
+
+.moreAddressDetailTap .moreAddressDetailClose {
+    position: relative;
+    top: 7px;
+    right: -505px;
+    display: block;
+    width: 14px;
+    height: 14px;
+}
+
+.moreAddressDetailTap .moreAddressDetailClose:hover {
+    cursor: pointer;
+}
+
+.moreAddressDetailContent {
+    overflow: auto;
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+
+.moreAddressDetailContent ul li {
+    width: 98%;
+    /* height: 30px; */
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.moreAddressDetailContent ul li:hover {
+    cursor: pointer;
+    background: #fef8f2;
+
+}
+
+.moreAddressDetailContent ul li .moreAddressLeft {
+    margin-top: 2px;
+    float: left;
+    width: 18%;
+    line-height: 25px;
+    height: 25px;
+}
+
+.moreAddressDetailContent ul li .moreAddressLeft label {
+    display: block;
+    margin-left: 10px;
+    float: left;
+    line-height: 25px;
+    height: 25px;
+}
+
+.moreAddressDetailContent ul li .moreAddressLeft input {
+    float: left;
+    margin-left: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.moreAddressDetailContent ul li .moreAddressMiddle {
+    margin-top: 2px;
+    float: left;
+    width: 70%;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+.moreAddressDetailContent ul li .moreAddressMiddle span {
+    /*display: inline-block;*/
+}
+
+.moreAddressMiddle .moreAddressPhone {
+    margin-left: 20px;
+}
+
+.moreAddressDetailContent ul li .moreAddressRight {
+    margin-top: 2px;
+    float: left;
+    width: 10%;
+    height: 25px;
+    line-height: 25px;
+}
+
+.moreAddressRight .moreAddressEdit {
+    display: inline-block;
+    color: blue;
+}
+
+.moreAddressRight .moreAddressDel {
+    display: inline-block;
+    color: blue;
+    margin-left: 10px;
+}
+
+.deleBtn, .deleBtn1 {
+    display: none;
+    z-index: 10000004;
+    background: white;
+    position: fixed;
+    width: 300px;
+    height: auto;
+    left: 454px;
+    top: 100px;
+}
+
+.deleBtn p, .deleBtn1 p {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.deleBtnTop, .deleBtnTop1 {
+    height: 30px;
+    width: 100%;
+    background: #f36f2a;
+    /* border: 1px solid #f36f2a; */
+    /* margin-top: 0px; */
+}
+
+.deleBtnTop label, .deleBtnTop1 label {
+    float: left;
+    height: 20px;
+    width: 100px;
+    display: block;
+    font-size: 14px;
+    line-height: 14px;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.deleBtnTop .deleBtnClose, .deleBtnTop1 .deleBtnClose1 {
+    margin-right: 10px;
+    width: 14px;
+    height: 14px;
+    margin-top: 7px;
+    /* height: 16px; */
+    /* position: absolute; */
+    cursor: pointer;
+    float: right;
+}
+
+.deleBtnAgree, .deleBtnAgree1 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    width: 80px;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+    background: #f36f2a;
+    border: 1px solid #f36f2a;
+    cursor: pointer;
+}
+
+.deleBtnunAgree, .deleBtnunAgree1 {
+    margin-bottom: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 80px;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+    background: #f36f2a;
+    border: 1px solid #f36f2a;
+}
+
+.zitiBtnEdit {
+    margin-left: 20px;
+    color: #0000ff;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+}
+
+.zitiBtnEdit:hover {
+    cursor: pointer;
+}
+
+#morePhones {
+    width: 95%;
+    height: auto;
+}
+
+#morePhones .morePhonesDiv {
+    width: 80%;
+    height: auto;
+    float: left;
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: left;
+    /* margin-left: 5px; */
+}
+
+.simKinds {
+    width: 80%;
+    height: auto;
+
+    /* margin-top: 5px; */
+}
+
+.simKinds li {
+    position: relative;
+    /* margin-top: 5px; */
+    width: 100%;
+    height: 27px;
+    line-height: 27px;
+}
+
+.simKinds li span {
+    position: absolute;
+    display: inline-block;
+    float: left;
+    width: 120px;
+    /* margin-top: 3px; */
+    height: 23px;
+    line-height: 23px;
+    font-size: 12px;
+    left: 0px;
+}
+
+.simKinds li select {
+    position: absolute;
+    display: inline-block;
+    float: left;
+    width: 146px;
+    height: 23px;
+    margin-top: 0px;
+    border: 1px solid #bbb;
+    padding: 2px;
+    line-height: 23px;
+    left: 125px;
+}
+
+.simKinds li select option {
+    text-align: left;
+
+}
+
+.simKinds li label {
+    display: inline-block;
+    float: left;
+    width: 150px;
+    height: 20px;
+    margin-left: 295px;;
+    color: #0000ff;
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+.simKinds li label:hover {
+    cursor: pointer;
+}
+
+.GoodsDetail {
+    /* width: 93%; */
+    height: auto;
+}
+
+.GoodsDetailTable {
+    margin-top: 10px;
+    /* border-left: 1px solid #ccc; */
+    /* border-right: 1px solid #ccc; */
+    /* border-bottom: 1px solid #ccc; */
+    width: 94%;
+    height: auto;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.GoodsDetailTop {
+    width: 100%;
+    height: 30px;
+    background: #Fac5aa;
+    text-align: center;
+}
+
+.GoodsDetailContent {
+    width: 100%;
+    height: auto;
+
+}
+
+.GoodsDetailContent td {
+
+    padding: 10px 0;
+
+}
+
+.GoodsLiOne {
+    width: 35%;
+}
+
+.GoodsLiTwo {
+    width: 35%;
+
+}
+
+.GoodsLiThree {
+    width: 20%;
+}
+
+.GoodsLiFour {
+    width: 10%;
+}
+
+.GoodsDetailTop .GoodsLiOne {
+    border-right: 1px solid #f5f5f5;
+}
+
+.GoodsDetailTop .GoodsLiTwo {
+    border-right: 1px solid #f5f5f5;
+
+}
+
+.GoodsDetailTop .GoodsLiThree {
+    border-right: 1px solid #f5f5f5;
+}
+
+.GoodsDetailContent .GoodsLiOne {
+    vertical-align: middle;
+    /* text-align: center; */
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.GoodsDetailContent .GoodsLiTwo {
+    border-right: 1px solid #ccc;
+
+    border-bottom: 1px solid #ccc;
+}
+
+.GoodsDetailContent .GoodsLiThree {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 0px 10px;
+
+}
+
+.GoodsDetailContent .GoodsLiFour {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    text-align: center;
+}
+
+.GoodsLiOne img {
+    vertical-align: middle;
+    display: block;
+    height: 68px;
+    width: 68px;
+    float: left;
+    margin-left: 50px;
+    line-height: normal;
+}
+
+.GoodsLiOne span {
+    vertical-align: middle;
+    /* text-align: center; */
+    width: 165px;
+    height: auto;
+    line-height: normal;
+    /* margin-top: 22px; */
+    float: left;
+    display: block;
+    margin-left: 15px;
+}
+
+.GoodsLiTwo ul {
+    margin: 10px 0 10px 0;
+}
+
+.GoodsLiTwo ul li {
+    margin-top: 5px;
+    width: 100%;
+    /*height: 20px;*/
+}
+
+.GoodsLiTwo ul li label {
+    display: inline-block;
+    float: left;
+    /* height: 20px; */
+    line-height: 20px;
+    width: 100px;
+    text-align: right;
+    margin-left: 10px;
+}
+
+.GoodsLiTwo ul li span {
+    /* margin: 2px 0 2px 20px; */
+    display: inline-block;
+    float: left;
+    /*height: 20px;*/
+    line-height: 20px;
+    width: 190px;
+}
+
+.numberMain{
+    position: inherit;
+    background:url("../images/orderInput_new/diyIcon.png") no-repeat scroll 0 -56px;
+    top: 2px;
+    left: 85px;
+    height: 17px;
+    width: 16px;
+    display: inline;
+    margin-left: -74px;
+}
+.seLectSt {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.simKinds li .seLectStSpan {
+    z-index: -1;
+    position: absolute;
+    display: block;
+    width: 144px;
+    height: 21px;
+    left: 125px;
+    border: 1px solid #bbb;
+    margin-top: 0px;
+}
+
+.seLectStSpan .seLectStLabel {
+    display: inline-block;
+    float: left;
+    width: 50px;
+    margin-left: 5px;
+    color: #000000;
+    font-size: 12px;
+}
+
+.seLectStSpan .seLectStImg {
+    display: inline-block;
+    float: left;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    right: 10px;
+    top: 2px;
+}
+
+.addressCity1 {
+    width: 85%;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+
+.addressCity1 ul {
+    float: left;
+    width: 73%;
+    height: 30px;
+
+    line-height: 30px;
+}
+
+.addressCity1 ul li {
+    float: left;
+    height: 30px;
+
+    line-height: 30px;
+    position: relative;
+}
+
+.addressProvince {
+    width: 105px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+
+}
+
+.addressCity {
+    /* overflow: hidden; */
+    width: 105px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+
+}
+
+.addressCounty {
+    width: 105px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+
+}
+
+.addressCity1 ul li .seLectStSpan1 {
+    z-index: -1;
+    position: absolute;
+    display: block;
+    width: 103px;
+    height: 24px;
+    line-height: 24px;
+    left: 0px;
+    border: 1px solid #bbb;
+    margin-top: 0px;
+}
+
+.seLectStSpan1 .seLectStLabel1 {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    float: left;
+    width: 80px;
+    margin-left: 5px;color: #000000;font-size: 12px;
+    /* margin-top: 4px; */
+    height: 24px;
+    line-height: 24px;
+}
+
+.seLectStSpan1 .seLectStImg1 {
+    display: inline-block;
+    float: left;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    right: 5px;
+    top: 4px;
+}
+
+#orderCartComLi li,#distributionDayList li {
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+.orderCartComPay li .redSelectAction ,.orderCartComPay li .redSelectAction{
+    border: 1px solid #f36f2a;
+}
+
+.orderCartComPay li .redSelect {
+    border: 1px solid #f36f2a;
+}
+
+.creditCardDetail {
+    margin-left: -5px;
+    margin-top: -4px;
+    float: left;
+    width: 800px;
+    height: auto;
+}
+
+#creditCard li label {
+    float: left;
+    margin-left: 20px;
+    display: block;
+    /* width: 50px; */
+    height: 24px;
+    line-height: 24px;
+    /* position: relative; */
+    margin-top: 7px;
+}
+
+
+#creditCard li label {
+    float: left;
+    margin-left: 20px;
+    display: block;
+    /* width: 50px; */
+    height: 24px;
+    line-height: 24px;
+    /* position: relative; */
+    margin-top: 7px;
+}
+
+/*#creditCard li {*/
+    /*position: relative;*/
+    /*border: 1px solid #CCCCCC;*/
+    /*float: left;*/
+    /*padding-left: 15px;*/
+    /*padding-right: 15px;*/
+    /*height: 23px;*/
+    /*font-size: 12px;*/
+    /*text-align: center;*/
+    /*/!*padding-top: 3px;*!/*/
+    /*margin-right: 15px;*/
+    /*line-height: 25px;*/
+/*}*/
+
+.cleLeft {
+    clear: left;
+}
+
+span.emW {
+    margin-left: 6px;
+}
+
+.orderCartCom ,.distributionDay{
+    float: left;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.orderCartComPay {
+    float: left;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.orderCartCom li, .distributionDay li{
+    position: relative;
+    border: 1px solid #CCCCCC;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 23px;
+    font-size: 12px;
+    text-align: center;
+    /*padding-top: 3px;*/
+    margin-right: 15px;
+    /*line-height: 19px;*/
+}
+
+
+.orderCartCom .redSelectAction,.distributionDay .redSelectAction {
+    border: 1px solid #f36f2a;
+}
+
+.orderCartComPay .redSelectAction {
+    border: 1px solid #f36f2a;
+}
+
+.creditCardDetail > li {
+    height: 30px;
+    width: 700px;
+    /* min-height: 60px; */
+    margin-bottom: 5px;
+}
+
+.creditCardDetail li span {
+    float: left;
+    display: block;
+    width: 50px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    padding: 2px 15px 0 15px;
+    margin-top: 7px;
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+}
+
+.creditCardDetail li .redSelectAction {
+    border: 1px solid #f36f2a;
+}
+
+.creditCardDetail li .redSelect {
+    border: 1px solid #f36f2a;
+}
+
+.creditCardDetail li label {
+    float: left;
+    margin-left: 20px;
+    display: block;
+    /* width: 50px; */
+    height: 24px;
+    line-height: 24px;
+    /* position: relative; */
+    margin-top: 7px;
+}
+
+.informationBtn {
+    /*text-align: right;*/
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.informationBtn p {
+    text-align: center;
+    padding: 0 10px;
+    position: absolute;
+    border: 1px solid #ffc892;
+    width: 415px;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    text-align: right;
+    right: 250px;
+    margin-top: 3px;
+    color: #858484;
+}
+
+.informationBtn a {
+    display: inline-block;
+    color: #f36f2a;
+}
+
+#Ptips{
+    border:1px solid #F0F0F0;
+    z-index: 10000005;
+    display: block;
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    position: fixed;
+    background: #f0f0f0;
+    padding: 0 5px;
+}
+
+.invoice {
+    padding-left: 20px;
+}
+.downLoad{
+    position: relative;
+    display: inline-block;
+    float: left;
+    background: #fff;
+    border: 1px solid #999;
+    margin-right: 5px;
+    color: #3c3c3c;
+    padding: 0 10px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.invoice li {
+    clear: both;
+    overflow: auto;
+    _width: 100%;
+    /*margin-bottom: 10px;*/
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#photo .redSelectAction,#photo .redSelect{
+    border: 1px solid #f36f2a;
+}
+#photo{
+    margin-top: 1px;
+}
+/*.consigneeAddress span{*/
+/*display: inline-block;*/
+/*}*/
+#userName,#identify{
+    height: 20px;
+    line-height: 20px;
+    width: 150px;
+    margin-top: 2px;
+}
+.monthFee{
+    width: 295px;
+}
+.inforIden{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+}
+#useNewNumChange{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    color: blue;
+    margin-left: 20px;
+    margin-top: 1px;
+}
+#mianNum{
+    position: absolute;
+    display: inline-block;
+    background:url("../images/orderInput_new/diyIcon.png") no-repeat scroll 0 -56px;
+    top: 2px;
+    left: 85px;
+    width: 17px;
+    height: 17px;
+}
+
+.MKDp{
+    width: 80%;
+    float: left;
+    height: auto;
+}
+
+/*.redSelectAction i {*/
+    /*position: absolute;*/
+    /*width: 15px;*/
+    /*height: 15px;*/
+    /*display: block;*/
+    /*overflow: hidden;*/
+    /*background: url(../images/order-new/choise.png) no-repeat;*/
+    /*bottom: 0px;*/
+    /*right: 0px;*/
+/*}*/
+.phoneModelKindDetail .redSelectAction,.phoneModelKindDetail .redSelect{
+    border: 1px solid #f36f2a;
+}
+
+
+/*鑱旂郴鏂瑰紡寮�*/
+.connectInfo span{
+    color: #ffffff;
+}
+.connectContent{
+
+}
+#conName,#conPhone,#installName, #installPhone{
+    height: 20px;
+    line-height: 20px;
+    width: 150px;
+    margin-top: 2px;
+}
+.conInfBtn, .installInfBtn{
+    display: inline-block;
+    padding: 0 20px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background: #f36f2a;
+    border: 1px solid #f36f2a;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    cursor: pointer;
+}
+#arrConInfo .table{
+    width: 95%;
+    height: 25px;
+    overflow: hidden;
+    margin-top: 5px;
+    line-height: 25px;
+}
+#arrConInfo .table>label{
+    margin-left: 10px;
+    width: 9%;
+    height: 25px;
+    line-height: 25px;
+    display: block;
+    float: left;
+    text-align: left;
+    font-size: 13px;
+}
+#arrConInfo .table>div{
+    width: 85%;
+    float: left;
+    text-align: left;
+    height: 25px;
+    line-height: 25px;
+    padding: 0;
+    margin-top: 0;
+}
+#arrConInfo .table div p, #arrInstallInfo .table div p{
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: left;
+    float: left;
+}
+#conInfoEdit, #installInfoEdit{
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    color: blue;
+     margin-left: 20px;
+}
+
+/*鑱旂郴鏂瑰紡缁撴潫*/
+
+
+.FQPay{
+    position: relative;
+    margin: 8px 0 0px 20px;
+    line-height: 24px;
+    padding-left: 16px;
+}
+.FQPay span{
+    position: absolute;
+    left: 0;
+    top: 3px;
+    display: block;
+    width: 11px;
+    height: 14px;
+    background: url(../images/fillout_order_info/fillout_order_info.png) -76px -2px;
+}
+
+#askLing {
+    display: inline-block;
+    color: #0000ff;
+    margin-left: 20px;
+}
+.tline{
+    text-decoration: line-through;
+}
+.span_tips{
+    color: orange;
+    display: inline-block;
+}
+
+.zitiTips .context{
+    display: inline-block;
+    margin-left: 49px;
+    font-size: 12px;
+    color: #f36f2a;
+}
+.zitiTips .attention{
+    display: inline-block;
+    position: absolute;
+    left: 27px;
+    font-size: 12px;
+    color: #f36f2a;
+}
+.zitiTips .icon{
+    position: absolute;
+    left: 9px;
+    top: 0px;
+    display: inline-block;
+    width: 13px;
+    height: 14px;
+    background: url(../images/fillout_order_info/fillout_order_info.png) -76px -2px;
+}
+#releaseTime{
+    padding: 0 10px;
+    border: 1px solid #ffc892;
+    width: 600px;
+    height: 22px;
+    background-color: #fffcf3;
+    margin-left: 318px;
+    line-height: 22px;
+    text-align: right;
+    margin-top: 15px;
+    color: #C8833A;
+}
+
+
+.install-detail {
+    height: 30px;
+    line-height: 30px;
+}
+.install-edit {
+    height: 30px;
+    line-height: 30px;
+    color: #0000ff;
+    margin-left: 20px;
+}
+#txtB {
+    width: 148px;
+    border: 1px solid #999;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 2px;
+    margin-right: 5px;
+    margin-top: 2px;
+    background: #fff url(../images/datePicker.gif) no-repeat right;
+}
+.installTime li{
+    position: relative;
+    border: 1px solid #CCCCCC;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 15px;
+    min-width: 50px;
+    cursor: pointer;
+}
+#orderTime {
+    width: 154px;
+    border: 1px solid #999;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 2px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+.mainSubFeeDetails{text-align:right;margin-top: 2px;}
+.mainSubFee{height: 21px;}
+.newOldChange{    margin-bottom: 15px;}
+.newOldChange .confirmInfo{display: inline-block;color: #f36f2a;margin-left: 10px;line-height: 35px;}
+div#invoiceInfoEdit, .input-area{
+    margin-left: 78px;
+}
+
+
+/*2017.8.23冰激凌团购新增*/
+.messageBox {
+    width: 960px;
+    margin: 18px 0 -2px 20px;
+    overflow: hidden;
+}
+.messageBox2 {
+    width: 960px;
+    margin: 18px 0 15px 20px;
+    height: 240px;
+}
+.customeMessage {
+    width: 280px;
+    display: inline-block;
+    margin-right: 35px;
+    margin-bottom: 100px;
+    vertical-align: top;
+}
+.enterMessage {
+    width: 280px;
+    height: 190px;
+    border: 1px solid #ff0000;
+    display: inline-block;
+    margin-right: 35px;
+}
+.phoneNumber {
+    width: 280px;
+    border-top: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    line-height: 40px;
+    font-family: 'PingFangSC-Regular', "Microsoft Yahei", "Adobe Heiti Std";
+    font-size: 16px;
+    color: #f46f2b;
+    text-indent: 18px;
+}
+.identifyMessage {
+    width: 280px;
+    height: 60px;
+    border: 1px solid #e0e0e0;
+    /*//position: absolute;*/
+    /*//left: 0;*/
+    /*top: 40px;*/
+}
+.identifyMessage>.identifyName {
+    font-size: 14px;
+    line-height: 38px;
+    font-family: 'PingFangSC-Regular', "Microsoft Yahei", "Adobe Heiti Std";
+    text-indent: 18px;
+}
+.identifyMessage>.identifyCard {
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 'PingFangSC-Regular', "Microsoft Yahei", "Adobe Heiti Std";
+    text-indent: 18px;
+}
+.messageDetail {
+    width: 280px;
+    height: 145px;
+    position: relative;
+    border: 1px solid #e0e0e0;
+}
+.nameInfo, .idInfo {
+    width: 260px;
+    height: 30px;
+    margin: 18px 0 0 15px;
+    padding: 0;
+    position: relative;
+}
+.nameInfo>span {
+    line-height: 25px;
+    font-size: 14px;
+    font-family: 仿宋;
+    font-weight: bold;
+    float: left;
+}
+.nameInfo>input {
+    line-height: 25px;
+    font-size: 14px;
+    font-family: 仿宋;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+    margin-left: 15px;
+    width: 165px;
+    height: 25px;
+}
+.idInfo>span {
+    line-height: 25px;
+    font-size: 14px;
+    font-family: 仿宋;
+    font-weight: bold;
+    float: left;
+}
+.idInfo>input {
+    line-height: 25px;
+    font-size: 14px;
+    font-family: 华文仿宋;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+    margin-left: 15px;
+    width: 165px;
+    height: 23px;
+}
+.commit {
+    width: 80px;
+    height: 28px;
+    background: #f46f2b;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    margin: 19px 0 15px 100px;
+}
+.errorMsg {
+    color: #ff0000;
+    font-size: 12px;
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+}
+.verifyBox {
+    width: 980px;
+    height: 82px;
+    position: relative;
+}
+.verigyError {
+    width: 29px;
+    height: 33px;
+    display: inline-block;
+    position: absolute;
+    left: 21px;
+    top: 21px;
+}
+.verifyTips {
+    width: 520px;
+    display: inline-block;
+    margin: 27px 75px;
+    padding: 0;
+    font-size: 14px;
+}
+.verifyTips > span {
+    color: #ff0000;
+    font-size: 14px;
+}
+.verifyButton {
+    width: 165px;
+    height: 40px;
+    border: none;
+    background: #f46f2b;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'PingFangSC-Regular', "Microsoft Yahei", "Adobe Heiti Std";
+    position: absolute;
+    left: 770px;
+    top: 21px;
+}
+.errorAll {
+    border: 1px solid #ff0000;
+}
+.errorAll .messageDetail{
+    height: 143px;
+}
+/*20170830*/
+
+.nameError, .idError {
+    line-height: 10px;
+    width: 180px;
+    position: absolute;
+    left: 90px;
+    font-size: 10px;
+    color: #cc0000;
+    display: none;
+    margin-top: -2px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+.nameError, .idError > span {
+    margin-bottom: 3px;
+}
+.nameError {
+    top: 57px;
+    margin-top: -8px;
+}
+.idError {
+    top: 100px;
+}
+.false {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: url('../images/orderInput_new/checkerror.png') 0 0 no-repeat;
+    background-size: 100%;
+    display: block;
+    float: left;
+    margin-top: 3px;
+}
+.customeMessageError {
+    height: 203px;
+    width: 280px;
+    display: inline-block;
+    margin-right: 35px;
+    margin-bottom: 100px;
+    position: relative;
+    border: 1px solid #cc0000;
+    display: none;
+}
+.checkSuccess {
+    width: 10px;
+    height: 10px;
+    background: url('../../img/messagesuccess.png') 0 0 no-repeat;
+    background-size: 100%;
+    position: absolute;
+    display: block;
+    left: 228px;
+    top: 10px;
+    display: none;
+
+}
+
+.errorAll .identifyMessage{
+    height: 58px;
+}
+
+
+/*20171128新增*/
+.icon {
+    position: relative;
+    right: -250px;
+    margin-top: -28px;
+}
+.edit {
+    cursor:pointer;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('../images/orderInput_new/edit-grey.png') no-repeat;
+    background-size: 80%;
+}
+.edit:hover {
+    background: url('../images/orderInput_new/edit-orange.png') no-repeat;
+    background-size: 80%;
+}

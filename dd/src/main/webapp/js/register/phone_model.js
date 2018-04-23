@@ -1,0 +1,38 @@
+var orderInputModel_new={"BRAND_MAP":[
+    {"brand_code":"B01","brand_name":"苹果"},
+    {"brand_code":"B02","brand_name":"三星"},
+    {"brand_code":"B03","brand_name":"小米"},
+    {"brand_code":"B04","brand_name":"魅族"},
+    {"brand_code":"B05","brand_name":"华为"},
+    {"brand_code":"B06","brand_name":"中兴"},
+    {"brand_code":"B07","brand_name":"诺基亚"},
+    {"brand_code":"B08","brand_name":"联想"},
+    {"brand_code":"B09","brand_name":"HTC"},
+    {"brand_code":"B10","brand_name":"SONY"},
+    {"brand_code":"B11","brand_name":"酷派"},
+    {"brand_code":"B12","brand_name":"TCL"},
+    {"brand_code":"B13","brand_name":"乐视"},
+    {"brand_code":"B14","brand_name":"OPPO"},
+    {"brand_code":"B15","brand_name":"天语"},
+    {"brand_code":"B16","brand_name":"摩托罗拉"},
+    {"brand_code":"B17","brand_name":"海信"}
+], "MODEL_MAP": {
+    "B01": {"nomal_model": "", "micro_model": "iPhone4、iPhone4S", "nano_model": "iPhone5、iPhone5S、iPhone5C、iPhone 6、iPhone 6 plus、iPhone 6S、iPhone 6S plus"},
+    "B02": {"nomal_model": "I6500、GT-I5508、S7562i、S6352、S6102E、S5838、S5750E、S3370、P1000、I9082i、I9082C、I9082、GT-S6812i、GT-I9100", "micro_model": "GALAXY Note4、SM-N9006、SM-N9002、SM-N7506V、SM-G9006W、SM-G9006V、SM-G5108Q、SM-G3606、SM-G3586V、SM-G3556D、SM-C1116、SM-C101、S7562C、S6812C、GT-N7102、GT-I9507v、GT-I9502S、GT-I9502、GT-I9500、GT-I9300i、GT-I9300、GT-I9200", "nano_model": "SM-G9250、SM-G9200"},
+    "B03": {"nomal_model": "小米3、小米2、红米Note、红米1S、红米、MI-ONEPlus、小米2S、小米2A", "micro_model": "小米4、红米NOTE、红米2", "nano_model": ""},
+    "B04": {"nomal_model": "", "micro_model": "魅蓝Note、MX4、MX4 Pro、MX3、MX2", "nano_model": "魅蓝NOTE2"},
+    "B05": {"nomal_model": "蔚然、U8500、Y600、Y511、Y320、Y300、Y210、Vision、U8800、U8520、U8100、U7520、U1270、SONIC+、SONIC、P1、Honor、G730、G700、G610S、G610+、G600、G520、G510、G330D、G300", "micro_model": "荣耀畅玩4（G620S）、荣耀X1、荣耀4X、荣耀3C、荣耀6、S8-303L、P6S、P6、MT7、Mate2、Mate、G7、G630、G620、G6、Ascend P7", "nano_model": ""},
+    "B06": {"nomal_model": "X850、V9A、V987、V967S、V965W、V960、V956、V955、V889S、V889M、V889F、V889D、V880、V818、V790、V788D、V6500、V5S、Q705U1、Q705U、Q503U、Q501U、F103、F100、E850", "micro_model": "醉享(Q806T)、星星一号（S2002）、天机十防版、红牛青春版、红牛能量版、V5S、S6 Lux、S291（天机双4G加密）、Q801U、星星二号（G720T）", "nano_model": "S6"},
+    "B07": {"nomal_model": "X3、Nokia N5235、E7、C7、C6-01、7230、2730", "micro_model": "XL、X7-00、N9、Lumia636、Lumia 800、1320、1020、925、920、720、630、625、610、525、520", "nano_model": "Nokia930、1520"},
+    "B08": {"nomal_model": "A316、乐phone、S856、P780、Lenovo A916、A889、A880、A850+、A850、A830、A820、A806、A800、A789、A780、A766、A760、A750、A690、A680、A66、A65、A630、A606(LYH)、A606、A60+、A60、A560、A518、A399、A396、A390、A369、A269", "micro_model": "黄金斗士S8 4G版（A7600）、Z2、K910、A936", "nano_model": ""},
+    "B09": {"nomal_model": "Z710e、T328W、T327W、HTCX920e、HTC D516w、D310w、6160", "micro_model": "T528W、T329W、D820mu、C620e、A620e、8060、802W、801e、606w、301e、9060、8160、7060、6160", "nano_model": "One、M9pw、M8w、M8e、D816w、E9w、D826w、D820us、D820u、D816h、D626w"},
+    "B10": {"nomal_model": "", "micro_model": "XM50h、S55u、S39h、M35h、LT26i、LT22i、L50u、L39u", "nano_model": "L55u"},
+    "B11": {"nomal_model": "7230、7061、春雷HD、W770、W721、W713、W711、W708、W706、W702、W700、7295C、7230s、7060s、7019A、7728、7320、7296、7295、7290、7275、7270、7269、7268、7266、7260、7251、7236、7235、7232、7231、7060、7020、7019、7011", "micro_model": "大神F2、大神F1、大神F1 plus、大神1S、大神、Y76、Y60、K1(7620L)、7605", "nano_model": ""},
+    "B12": {"nomal_model": "W989、P606、P360W、J930、J320、J310、A906", "micro_model": "S830U、S720、P550U、P502U、P332U+、P332U、J928、J730U", "nano_model": ""},
+    "B13": {"nomal_model": "", "micro_model": "乐1", "nano_model": ""},
+    "B14": {"nomal_model": "", "micro_model": "Ulike2（U705W）、R830S、R2010、Find7轻装版（X9000）、Find5（X909）、1100", "nano_model": ""},
+    "B15": {"nomal_model": "W700、W621、W366、W98、W96、W95、W806+、W806、W800、W760、W719、W70、W68a、W68、W656、W655、W619、U9、U86、U6、Touch 3W、S5、W88、kis 3W", "micro_model": "", "nano_model": ""},
+    "B16": {"nomal_model": "XT701、XT536、XT390、XT319、XT316、XT300、ME722、ME525", "micro_model": "", "nano_model": ""},
+    "B17": {"nomal_model": "U978、U971、U970、U966、U958、U939、U930、U929、U912、U909、U860、U850、U820、U8", "micro_model": "", "nano_model": ""}
+}
+};
